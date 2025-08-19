@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rdatla_RD_go_pipeline_sample_1755579642183-push-trigger-input-set
+  identifier: Build_rdatla_RD_go_pipeline_sample_1755579642183pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: harnesspoc
+  pipeline:
+    identifier: Build_rdatla_RD_go_pipeline_sample_1755579642183
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
